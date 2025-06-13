@@ -14,8 +14,8 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v3
       with:
-        aws-access-key-id: ASIA4XNIDHVVWEVJVOIU
-        aws-secret-access-key: LbXpWiifyG9+bBudY3PB6YNOSo1cwv+zkcvH2jkE
+        aws-access-key-id: ASIA4XNIDHVV2W3WTFKH 
+        aws-secret-access-key: norn5OqvZCJc8nlp+wGnFPth0K/fVuShRxgEhXIn
         aws-session-token: ${{ secrets.TOKEN}}
         aws-region: us-east-1
 
